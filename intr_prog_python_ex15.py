@@ -5,5 +5,5 @@ salario = float(input('digite aqui o valor do salário R$ '))
 porcentagem_de_aumento = float(input('digite aqui a porcentagem de aumento  '))
 novosalário = salario + (salario * porcentagem_de_aumento/100)
 valordoaumento = novosalário-salario
-print('O VALOR DO AUMENTO É DE %d'% valordoaumento)
-print('portanto o novo salário fica %d'% novosalário)
+print('O VALOR DO AUMENTO É DE %3.3f'% valordoaumento)
+print('portanto o novo salário fica %3.3f'% novosalário)
